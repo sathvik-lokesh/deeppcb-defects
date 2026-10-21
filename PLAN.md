@@ -15,7 +15,7 @@
   TEST 5 PASS: T100 - A100 +3.33 vs seed spread 0.92. 95% of own 900 reached at 225 for BOTH arms.
   Curve now rises sensibly (v1's fell): A 25:62.1 50:67.8 100:71.7 225:74.0 450:76.4 900:75.7;
   T 25:69.6 50:74.2 100:75.0 225:78.9 450:80.4 900:80.5. T at 50 images ~ A at 900 (74.2 vs 75.7).
-  (225/450 are single-seed points.) README.md + plot_curve.py (runs/curve.png) WRITTEN 18:50. NEXT: optional
+  (225/450 are single-seed points.) README.md + plot_curve.py (runs/curve.png) WRITTEN 18:50. PUSHED 2026-10-21 to github.com/sathvik-lokesh/deeppcb-defects (main, on top of the GitHub MIT LICENSE commit). NEXT: LinkedIn writeup, optional
   M4 TRT FP16, push (user creates the GitHub repo; no gh CLI).
 - **>>> 2026-10-21 ~10:45 v2 TESTS 1-4 JUDGED (runs/compare_v2.json, operating_v2.json,
   operating_iou033_v2.json) <<<** curve runs still in the queue (test 5 pending).

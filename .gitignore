@@ -1,0 +1,11 @@
+.venv
+data/
+weights/
+__pycache__/
+*.pt
+*.onnx
+*.engine
+*.npz
+runs/eval/boot/
+*.out
+runs/*/*_batch*.jpg

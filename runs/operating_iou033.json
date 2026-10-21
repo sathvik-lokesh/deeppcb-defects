@@ -1,0 +1,310 @@
+{
+ "class_agnostic": {
+  "verdict": "FAIL",
+  "T_minus_A_fa_per_board": 65.46800000000002,
+  "ci95": [
+   61.13725,
+   70.08869999999999
+  ],
+  "per_run": {
+   "A900_s0": {
+    "thr99": 0.002576300175860524,
+    "test_recall": 0.9847133757961783,
+    "fa_per_board": 32.396,
+    "clean_flagged": 0.988,
+    "cost": {
+     "1": {
+      "thr": 0.5705339312553406,
+      "test_recall": 0.9410828025477707,
+      "fa_per_board": 0.31,
+      "cost_per_board": 0.68,
+      "clean_flagged": 0.18
+     },
+     "10": {
+      "thr": 0.34855419397354126,
+      "test_recall": 0.9547770700636943,
+      "fa_per_board": 0.724,
+      "cost_per_board": 3.564,
+      "clean_flagged": 0.396
+     },
+     "50": {
+      "thr": 0.10105568915605545,
+      "test_recall": 0.9703821656050955,
+      "fa_per_board": 2.37,
+      "cost_per_board": 11.67,
+      "clean_flagged": 0.716
+     },
+     "200": {
+      "thr": 0.02111288532614708,
+      "test_recall": 0.9789808917197452,
+      "fa_per_board": 7.248,
+      "cost_per_board": 33.648,
+      "clean_flagged": 0.894
+     }
+    }
+   },
+   "A900_s1": {
+    "thr99": 0.0,
+    "test_recall": 0.9847133757961783,
+    "fa_per_board": 69.47,
+    "clean_flagged": 0.988,
+    "cost": {
+     "1": {
+      "thr": 0.5848668217658997,
+      "test_recall": 0.924203821656051,
+      "fa_per_board": 0.228,
+      "cost_per_board": 0.704,
+      "clean_flagged": 0.142
+     },
+     "10": {
+      "thr": 0.5069676041603088,
+      "test_recall": 0.9334394904458598,
+      "fa_per_board": 0.332,
+      "cost_per_board": 4.512,
+      "clean_flagged": 0.2
+     },
+     "50": {
+      "thr": 0.06651327013969421,
+      "test_recall": 0.9684713375796178,
+      "fa_per_board": 3.228,
+      "cost_per_board": 13.128,
+      "clean_flagged": 0.726
+     },
+     "200": {
+      "thr": 0.01426649559289217,
+      "test_recall": 0.9748407643312101,
+      "fa_per_board": 9.58,
+      "cost_per_board": 41.18,
+      "clean_flagged": 0.886
+     }
+    }
+   },
+   "T900_s0": {
+    "thr99": 0.004316302482038736,
+    "test_recall": 0.9869426751592356,
+    "fa_per_board": 69.76,
+    "clean_flagged": 0.62,
+    "cost": {
+     "1": {
+      "thr": 0.6884111762046814,
+      "test_recall": 0.9528662420382166,
+      "fa_per_board": 0.248,
+      "cost_per_board": 0.544,
+      "clean_flagged": 0.0
+     },
+     "10": {
+      "thr": 0.4789053201675415,
+      "test_recall": 0.9735668789808917,
+      "fa_per_board": 0.684,
+      "cost_per_board": 2.344,
+      "clean_flagged": 0.002
+     },
+     "50": {
+      "thr": 0.4789053201675415,
+      "test_recall": 0.9735668789808917,
+      "fa_per_board": 0.684,
+      "cost_per_board": 8.984,
+      "clean_flagged": 0.002
+     },
+     "200": {
+      "thr": 0.2645060122013092,
+      "test_recall": 0.9815286624203822,
+      "fa_per_board": 1.98,
+      "cost_per_board": 25.18,
+      "clean_flagged": 0.002
+     }
+    }
+   },
+   "T900_s1": {
+    "thr99": 0.0,
+    "test_recall": 0.9894904458598726,
+    "fa_per_board": 163.042,
+    "clean_flagged": 0.988,
+    "cost": {
+     "1": {
+      "thr": 0.6273102164268494,
+      "test_recall": 0.9627388535031847,
+      "fa_per_board": 0.418,
+      "cost_per_board": 0.652,
+      "clean_flagged": 0.002
+     },
+     "10": {
+      "thr": 0.48059770464897156,
+      "test_recall": 0.9738853503184713,
+      "fa_per_board": 0.756,
+      "cost_per_board": 2.396,
+      "clean_flagged": 0.002
+     },
+     "50": {
+      "thr": 0.332619845867157,
+      "test_recall": 0.9767515923566878,
+      "fa_per_board": 1.378,
+      "cost_per_board": 8.678,
+      "clean_flagged": 0.002
+     },
+     "200": {
+      "thr": 0.332619845867157,
+      "test_recall": 0.9767515923566878,
+      "fa_per_board": 1.378,
+      "cost_per_board": 30.578,
+      "clean_flagged": 0.002
+     }
+    }
+   }
+  }
+ },
+ "class_aware": {
+  "verdict": "FAIL",
+  "T_minus_A_fa_per_board": 105.789,
+  "ci95": [
+   99.58845000000001,
+   112.20504999999999
+  ],
+  "per_run": {
+   "A900_s0": {
+    "thr99": 0.0,
+    "test_recall": 0.978343949044586,
+    "fa_per_board": 67.502,
+    "clean_flagged": 0.996,
+    "cost": {
+     "1": {
+      "thr": 0.6952293515205383,
+      "test_recall": 0.9140127388535032,
+      "fa_per_board": 0.168,
+      "cost_per_board": 0.708,
+      "clean_flagged": 0.088
+     },
+     "10": {
+      "thr": 0.29187315702438354,
+      "test_recall": 0.9525477707006369,
+      "fa_per_board": 0.994,
+      "cost_per_board": 3.974,
+      "clean_flagged": 0.464
+     },
+     "50": {
+      "thr": 0.10105568915605545,
+      "test_recall": 0.9624203821656051,
+      "fa_per_board": 2.42,
+      "cost_per_board": 14.22,
+      "clean_flagged": 0.716
+     },
+     "200": {
+      "thr": 0.02111288532614708,
+      "test_recall": 0.9707006369426752,
+      "fa_per_board": 7.3,
+      "cost_per_board": 44.1,
+      "clean_flagged": 0.894
+     }
+    }
+   },
+   "A900_s1": {
+    "thr99": 0.0,
+    "test_recall": 0.975796178343949,
+    "fa_per_board": 69.526,
+    "clean_flagged": 0.988,
+    "cost": {
+     "1": {
+      "thr": 0.6796119809150696,
+      "test_recall": 0.9035031847133758,
+      "fa_per_board": 0.174,
+      "cost_per_board": 0.78,
+      "clean_flagged": 0.088
+     },
+     "10": {
+      "thr": 0.2435196191072464,
+      "test_recall": 0.9461783439490445,
+      "fa_per_board": 1.106,
+      "cost_per_board": 4.486,
+      "clean_flagged": 0.438
+     },
+     "50": {
+      "thr": 0.07149649411439896,
+      "test_recall": 0.960828025477707,
+      "fa_per_board": 3.102,
+      "cost_per_board": 15.402,
+      "clean_flagged": 0.722
+     },
+     "200": {
+      "thr": 0.0060490332543849945,
+      "test_recall": 0.9719745222929936,
+      "fa_per_board": 17.512,
+      "cost_per_board": 52.712,
+      "clean_flagged": 0.946
+     }
+    }
+   },
+   "T900_s0": {
+    "thr99": 0.0,
+    "test_recall": 0.9853503184713376,
+    "fa_per_board": 185.53,
+    "clean_flagged": 0.966,
+    "cost": {
+     "1": {
+      "thr": 0.6884111762046814,
+      "test_recall": 0.9480891719745222,
+      "fa_per_board": 0.278,
+      "cost_per_board": 0.604,
+      "clean_flagged": 0.0
+     },
+     "10": {
+      "thr": 0.4789053201675415,
+      "test_recall": 0.9668789808917198,
+      "fa_per_board": 0.726,
+      "cost_per_board": 2.806,
+      "clean_flagged": 0.002
+     },
+     "50": {
+      "thr": 0.4789053201675415,
+      "test_recall": 0.9668789808917198,
+      "fa_per_board": 0.726,
+      "cost_per_board": 11.126,
+      "clean_flagged": 0.002
+     },
+     "200": {
+      "thr": 0.14551694691181183,
+      "test_recall": 0.9786624203821656,
+      "fa_per_board": 3.764,
+      "cost_per_board": 30.564,
+      "clean_flagged": 0.002
+     }
+    }
+   },
+   "T900_s1": {
+    "thr99": 0.0,
+    "test_recall": 0.9840764331210191,
+    "fa_per_board": 163.076,
+    "clean_flagged": 0.988,
+    "cost": {
+     "1": {
+      "thr": 0.7224283218383789,
+      "test_recall": 0.9385350318471337,
+      "fa_per_board": 0.23,
+      "cost_per_board": 0.616,
+      "clean_flagged": 0.0
+     },
+     "10": {
+      "thr": 0.48059770464897156,
+      "test_recall": 0.9681528662420382,
+      "fa_per_board": 0.792,
+      "cost_per_board": 2.792,
+      "clean_flagged": 0.002
+     },
+     "50": {
+      "thr": 0.332619845867157,
+      "test_recall": 0.9726114649681529,
+      "fa_per_board": 1.404,
+      "cost_per_board": 10.004,
+      "clean_flagged": 0.002
+     },
+     "200": {
+      "thr": 0.332619845867157,
+      "test_recall": 0.9726114649681529,
+      "fa_per_board": 1.404,
+      "cost_per_board": 35.804,
+      "clean_flagged": 0.002
+     }
+    }
+   }
+  }
+ }
+}
